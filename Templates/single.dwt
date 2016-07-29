@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="es"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="es"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="es"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="es"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+	<title>PS Construcciones</title>
+	<!-- Start VisualLightBox.com HEAD section -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <script type='text/javascript' src='../js/jquery.min.js'></script>
+	<script type='text/javascript' src='../js/jquery.easing.1.3.js'></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+<!--------------Header--------------->
+<header> 
+	<div class="pagetop">
+		<div class="wrap-pagetop">
+			<div class="shareicons">
+				
+			</div>
+		  <div id="search"><img src="../images/miespacio.png"></div>
+		</div>
+	</div>
+	<div class="wrap-header">
+		<div id="logo"><a href="#"><img src="../images/logo.png"></a></div>
+		<nav>
+			<ul>
+				<li class="current"><a href="#">QUIENES SOMOS</a></li>
+				<li><a href="#">NUESTROS SERVICIOS</a></li>
+				<li><a href="#">CONTACTO</a></li>
+			
+		  </ul>
+		</nav>
+	</div>
+</header>
+<body>
+<section id="content">
+	<div class="feature">
+	
+	<!-- TemplateBeginEditable name="CUERPO1" -->
+	
+	
+	
+	
+	HOLA MUNDO
+	
+	
+	
+	
+	
+	<!-- TemplateEndEditable -->
+		
+        
+	
+	
+</section>
+<!--------------Footer--------------->
+<footer>
+	<div class="zerogrid">
+		<div class="row block02">
+			<section class="col-1-3">
+				<div class="heading">
+			  <h2>Prototipos</h2></div>
+				<div class="content">
+					<ul>
+					  <li><a href="http://localhost/PSConstrucciones/#">Topacio</a></li>
+					  <li><a href="http://localhost/PSConstrucciones/#">Coral</a></li>
+					  <li><a href="http://localhost/PSConstrucciones/#">Rubí</a></li>
+					  <li><a href="http://localhost/PSConstrucciones/#">Berra</a></li>
+					  <li><a href="http://localhost/PSConstrucciones/#">Órbita</a></li>
+					  <li><a href="http://localhost/PSConstrucciones/#">Esmeralda 2</a></li>
+					  <li><a href="http://localhost/PSConstrucciones/#">Topacio 2</a></li>
+					  <li><a href="http://localhost/PSConstrucciones/#">Provenza</a></li>
+				  </ul>
+					<p>&nbsp;</p>
+				</div>
+			</section>
+			<section class="col-1-3">
+				<div class="heading"><h2><a href="http://localhost/PSConstrucciones/#">Habitacional</a></h2>
+				</div>
+				<div class="content">
+					<ul>
+						<li><a href="http://localhost/PSConstrucciones/#">Unifamiliar</a></li>
+						<li><a href="http://localhost/PSConstrucciones/#">Multifamiliar</a></li>
+					</ul>
+				</div>
+			</section>
+			<section class="col-1-3">
+				<div class="heading"><h2><a href="http://localhost/PSConstrucciones/#">Comercial - Servicios</a></h2>
+				</div>
+					<div class="content">
+					<ul>
+						<li><a href="http://localhost/PSConstrucciones/#">Locales y Centros Comerciales</a></li>
+						<li><a href="http://localhost/PSConstrucciones/#">Hospedaje</a></li>
+						<li><a href="http://localhost/PSConstrucciones/#">Oficinas Administrativas y Edificios Corporativos</a></li>
+						<li><a href="http://localhost/PSConstrucciones/#">Restaurantes y Cafeterías</a></li>
+						<li><a href="http://localhost/PSConstrucciones/#">Clínicas</a></li>
+						<li><a href="http://localhost/PSConstrucciones/#">Mercados</a></li>
+						<li><a href="http://localhost/PSConstrucciones/#">Centros Educativos</a></li>
+					</ul>
+				
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>PS Construcciones © 2016</p>
+	</div>
+</footer>
+</body>
+</html>
