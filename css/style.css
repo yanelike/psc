@@ -81,17 +81,13 @@ nav ul li {
 		-khtml-border-radius: 5px;
 		border-radius: 5px;
 	}
-nav ul li:hover, nav ul li.current{background-color:#c2bebe;}
+nav ul li:hover, nav ul li.current{}
 nav ul li:hover a, nav ul li.current a{color:#000000;}
 nav ul li a {font-size: 14px; line-height:14px;color:#000000;display: block;padding: 6px 10px;margin-bottom: 5px;z-index: 6;position: relative; }
 nav ul li:hover a{
 	color: #F00;
 	text-shadow: 1px 1px 12px #000000;
-	-webkit-transition: all 2s ease-out;
--moz-transition: all 2s ease-out;
--ms-transition: all 2s ease-out;
--o-transition: all 2s ease-out;
-transition: all 2s ease-out;
+
 }
 
 #pagi{clear: both; margin: 30px auto;padding: 0;list-style: none;width: 180px;}
@@ -174,7 +170,6 @@ footer .copyright a{color:#000000; text-decoration:none;}
 footer .copyright a:hover{color:#CCCCCC; text-decoration:none;}
 
 .title{
- width: 80%;
  font-size: 22px;
  font-family: 'Open Sans Condensed', sans-serif;
 
