@@ -43,6 +43,9 @@ img{
 
 	nav{top:20px; left:5px;}
 	p{ margin: 10px;}
+	#logo{
+		top: 60px;
+	}
 }
 
 @media only screen and (max-width: 479px) {
@@ -56,9 +59,10 @@ right: 0;
 left: 0;
 width: 200px;
 height: auto;}
+
 	.wrap-pagetop #search{top:45px; left:5px;}
 
-	nav{top:90px; left:5px; bottom: 20px; height: auto;}
+	nav{top:140px; left:5px; bottom: 20px; height: auto;}
 	#content{
 		/*top:150px; */
 		margin-top: 90px;

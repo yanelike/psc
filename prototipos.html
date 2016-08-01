@@ -3,6 +3,9 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="es"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="es"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
+<style>
+.mySlides {display:none}
+</style>
 <html lang="es"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
@@ -14,7 +17,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <script type='text/javascript' src='js/jquery.min.js'></script>
 	  <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
-
+		<link rel="stylesheet" href="css/w3.css">
 	<link rel="stylesheet" href="silidesfinal_files/vlb_files1/vlightbox1.css" type="text/css" />
 	<link rel="stylesheet" href="silidesfinal_files/vlb_files1/visuallightbox.css" type="text/css" media="screen" />
     <script src="silidesfinal_files/vlb_engine/jquery.min.js" type="text/javascript"></script>
@@ -35,20 +38,65 @@
 	<section id="content">
     <h1 class="title">Prototipos</h1>
 		<div id="vlightbox1" align="center">
-			<a class="vlightbox1" href="silidesfinal_files/vlb_images1/casacoral.jpg" title="Casa Coral"><img src="silidesfinal_files/vlb_thumbnails1/casacoral.jpg" alt="Casa Coral"/></a>
-			<a class="vlightbox1" href="silidesfinal_files/vlb_images1/cafebullets.jpg" title="Cafe Bullets"><img src="silidesfinal_files/vlb_thumbnails1/cafebullets.jpg" alt="Cafe Bullets"/></a>
-			<a class="vlightbox1" href="silidesfinal_files/vlb_images1/casacandiani.jpg" title="Casa Candiani"><img src="silidesfinal_files/vlb_thumbnails1/casacandiani.jpg" alt="Casa Candiani"/></a>
-			<a class="vlightbox1" href="silidesfinal_files/vlb_images1/centrocomercialsr.jpg" title="Centro Comercial-SR"><img src="silidesfinal_files/vlb_thumbnails1/centrocomercialsr.jpg" alt="Centro Comercial-SR"/></a>
-			<a class="vlightbox1" href="silidesfinal_files/vlb_images1/casatopacio.jpg" title="Casa Topacio"><img src="silidesfinal_files/vlb_thumbnails1/casatopacio.jpg" alt="Casa Topacio"/></a>
-			<a class="vlightbox1" href="silidesfinal_files/vlb_images1/jardindeninos.jpg" title="Jardin de Niños"><img src="silidesfinal_files/vlb_thumbnails1/jardindeninos.jpg" alt="Jardin de Niños"/></a>
+			<a class="vlightbox1 demo" onclick="currentDiv(1)" title="Cafe Bullets"><img src="silidesfinal_files/vlb_thumbnails1/casatopacio.jpg" alt="Casa Topacio"/></a>
+			<a class="vlightbox1 demo" onclick="currentDiv(2)" title="Casa Coral"><img src="silidesfinal_files/vlb_thumbnails1/casacoral.jpg" alt="Casa Coral"/></a>
+			<a class="vlightbox1 demo" onclick="currentDiv(3)" title="Casa Candiani"><img src="silidesfinal_files/vlb_thumbnails1/casarubi.jpg" alt="Casa Rubí"/></a>
 			<span class="vlb"><a href="http://visuallightbox.com">jquery lightbox flv</a>by VisualLightBox.com v6.1</span>
 		</div>
 		<div class="feature">
-			<img src="images/slides/slide1.jpg">
+				<div class="w3-content w3-display-container" style="max-width:800px">
+					<div class="full-screen">
+						<a class="vlightbox1 " href="silidesfinal_files/vlb_images1/casatopacio.jpg" title="Casa Topacio">
+							<img alt="Jardin de Niños1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAA60lEQVQ4T+2UP0qDQRDF31s8gO4MAT1ARKtUEWw08RxCruBJrK08RxAxpMifztrUCmY33xF2RKtgJhD4vlS65cy8X/Hm7TDG+Amyhc03rVarS6eOQ5F5ALq/ewQSo4jB7C6E8Lo+QPI9pbTwgKraBnCy3iuldEDe/wAD2cs5jzzxrjVV7RWz58aAItI34KlJ4I0Bw70AJ4Ec5JzfdvXLm4sxniOEB9aBeNp/YH1Hm/fw+6MfkLd1YyMiZwV4bCzYqnpdzF7+KtA7sAA+ti1KVU8BHPsHVjXBTDcSaDauqurKS+aRyIzAhaNZfgFA1H9wKDIBnQAAAABJRU5ErkJggg==" alt="" />
+							Pantalla Completa
+						</a>
+					</div>
+					<img class="mySlides" src="images/slides/slide1.jpg" style="width:100%" />
+
+					<div class="full-screen">
+						<a class="vlightbox1" href="silidesfinal_files/vlb_images1/casatopacio.jpg" title="Casa Coral">
+							<img alt="Jardin de Niños2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAA60lEQVQ4T+2UP0qDQRDF31s8gO4MAT1ARKtUEWw08RxCruBJrK08RxAxpMifztrUCmY33xF2RKtgJhD4vlS65cy8X/Hm7TDG+Amyhc03rVarS6eOQ5F5ALq/ewQSo4jB7C6E8Lo+QPI9pbTwgKraBnCy3iuldEDe/wAD2cs5jzzxrjVV7RWz58aAItI34KlJ4I0Bw70AJ4Ec5JzfdvXLm4sxniOEB9aBeNp/YH1Hm/fw+6MfkLd1YyMiZwV4bCzYqnpdzF7+KtA7sAA+ti1KVU8BHPsHVjXBTDcSaDauqurKS+aRyIzAhaNZfgFA1H9wKDIBnQAAAABJRU5ErkJggg==" alt="" />
+							Pantalla Completa
+						</a>
+					</div>
+					<img class="mySlides" src="images/slides/slide2.jpg" style="width:100%" />
+
+					<div class="full-screen">
+						<a class="vlightbox1 " href="silidesfinal_files/vlb_images1/casarubi.jpg" title="Casa Rubí">
+							<img alt="Jardin de Niños3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAA60lEQVQ4T+2UP0qDQRDF31s8gO4MAT1ARKtUEWw08RxCruBJrK08RxAxpMifztrUCmY33xF2RKtgJhD4vlS65cy8X/Hm7TDG+Amyhc03rVarS6eOQ5F5ALq/ewQSo4jB7C6E8Lo+QPI9pbTwgKraBnCy3iuldEDe/wAD2cs5jzzxrjVV7RWz58aAItI34KlJ4I0Bw70AJ4Ec5JzfdvXLm4sxniOEB9aBeNp/YH1Hm/fw+6MfkLd1YyMiZwV4bCzYqnpdzF7+KtA7sAA+ti1KVU8BHPsHVjXBTDcSaDauqurKS+aRyIzAhaNZfgFA1H9wKDIBnQAAAABJRU5ErkJggg==" alt="" />
+							Pantalla Completa
+						</a>
+					</div>
+					<img class="mySlides" src="images/slides/slide3.jpg" style="width:100%" />
+
+					<a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+					<a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+					<br>
+					<div class="content-info">
+						<div class="showInfo">
+							<a class="w3-left info" id="1" data-remote=true title="Jardin de Niños">
+								<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABIElEQVQ4T+3TrU7FMBQH8H8XEuQ6SbC8An6GD3OTrWRvgOBpcAjcsJhWMD6CqSPh8gyEBIGEOUS7Q5bckm10LeI6qFvPyW//neUwrPmwNXv4B4E8zze01hYAxebr6x3NUAhxbK09A7A0xiyapnmfQ8uyPARwCeCNiA6UUi997zdYVdW2MebV3RHRE4A9pdTHFF1hCsDmqnYlpVyMwKIoOGPsGUDmAB/qwfr2cynlyQjsH4QQu9ba+yRJ0gG6BLDfJ/VhRHTHOS/quv78Ac6hAB4ZY6dEdDH4THRdd5tlWekwLxhAp6O8SdNUDLFZ8BeoFwuCgZlec86Ppslc/OguD38UEQWxaEL3ViHElrV2p23bB621CW1QNGFs/ab1Pwh+AesLmRVUHpxPAAAAAElFTkSuQmCC" alt="" />
+								INFORMACIÓN
+							</a>
+							<div id="info1" style="display:none;">
+								<br>
+								<h3>CASA CANDIANI</h3>
+								<p>
+									TIPO: OBRA NUEVA <br>
+									ESTATUS: CONSTRUIDO
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 	  </div>
 		<div style="clear:both; display:block; height:10px"></div>
-
 	</section>
+
+
+
+
+
 	<!--------------Footer--------------->
 	<footer>
 		<div id="foot">
@@ -60,4 +108,46 @@
 <script type="text/javascript">
 		$("#topindex").load("header.html");
 		$("#foot").load("footer.html");
+</script>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+	var y = document.getElementsByClassName("full-screen");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+		 y[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";
+	y[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-red";
+}
+</script>
+
+<script type="text/javascript">
+	$( ".info" ).click(function() {
+		id=$(this).attr("id");
+		console.log(id);
+		$( "#info"+id ).toggle( "slow", function() {
+
+		});
+	});
 </script>

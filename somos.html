@@ -11,6 +11,7 @@
 	<meta name="author" content="www.zerotheme.com">
 	<!-- Start VisualLightBox.com HEAD section -->
     <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/W3.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script type='text/javascript' src='js/jquery.min.js'></script>
 	  <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
@@ -33,13 +34,22 @@
 	<!--------------Content--------------->
 	<section id="content">
     <div id="vlightbox1" align="center">
-  		<h1 class="title">¿Quiénes somos?</h1>
+  		<h1 class="title">
+				<img src="data:image/png;base64,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" alt="" />
+				LA EMPRESA</h1>
   	</div>
-    <img class="introduction-img" src="images/welcome-intro.png" alt="Compare flower prices">
-    <p>Soon the crew came on <a href="#">board in twos and threes</a>;
-      the riggers bestirred themselves; the mates were actively engaged;
-      and several of the shore people were busy in bringing various last things on board.
-      Meanwhile Captain Ahab remained invisibly enshrined within his cabin.</p>
+    <img class="introduction-img" src="images/somos.png" alt="Compare flower prices">
+    <p>Somos una empresa oaxaqueña con 25 años de experiencia en el diseño arquitectónico y construcción de obra privada.</p>
+		<p>
+			Nuestros proyectos procuran ofrecer soluciones espaciales eficientes, funcionales y estéticas a las necesidades específicas de nuestros
+			clientes, involucrándolos primero en el proceso de diseño para personalizar los proyectos, y durante el proceso de construcción, en
+			donde puede constatar la calidad de los materiales y de la mano de obra empleada.
+		</p>
+		<p>
+			Contamos con un equipo humano de profesionales del diseño arquitectónico y de la contrucción, quienes mantienen una organización ágil y
+			accesible, procurando la innovación y la planeación de los detalles de cada uno de los proyectos, conservando los valores que nos han
+			caracterizado desde nuestros inicios: <strong>calidad, seriedad y calidez en el trato.</strong>
+		</p>
 	</section>
 	<!--------------Footer--------------->
 	<footer>

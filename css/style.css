@@ -3,7 +3,7 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
 mark, rp, rt, ruby, summary, time {display:inline;}
-input, textarea {border:0; padding:0; margin:0; outline: 0;}
+{border:0; padding:0; margin:0; outline: 0;}
 iframe {border:0; margin:0; padding:0;}
 input, textarea, select {margin:0; padding:0px;}
 
@@ -25,7 +25,7 @@ a.button:hover, input.button:hover {}
 p {
 		color: #516163;
 		font-family: 'PT Sans';
-		font-size: 22px;
+		font-size: 18px;
 		font-weight: 300;
 		line-height: 36px;
 		margin-bottom: 36px;
@@ -52,9 +52,14 @@ p {
 /*--------------------*/
 /*-------------header */
 header {}
-.wrap-header{width:960px;height: 130px; position:relative; margin: 0px auto; background:#ffffff; margin-top:50px; border-bottom:1px solid #000000;}
-.wrap-header #logo {position:absolute; top:40px; left: 30px; width: 100%;
-
+.wrap-header{width:960px;height: 130px; position:relative; margin: 0px auto; background:#ffffff; margin-top:50px; }
+#logo {position: absolute;
+top: 40px;
+left: 30px;
+width: 100%;
+border-bottom: 2px solid #5f5a5a !important;
+z-index: 100;
+padding-bottom: 2px;
 }
 
 .pagetop{background:#FFF; height:40px; margin-top:3px;}
@@ -80,14 +85,20 @@ nav ul li {
 		-moz-border-radius: 5px;
 		-khtml-border-radius: 5px;
 		border-radius: 5px;
+		font-weight: bold;
 	}
-nav ul li:hover, nav ul li.current{}
+nav ul li.current{
+	border-top: 6px solid red !important;
+	z-index: 200;
+	color: #F00;
+}
+nav ul li:hover, nav ul li.current a{
+	margin-top: -5px;
+}
 nav ul li:hover a, nav ul li.current a{color:#000000;}
 nav ul li a {font-size: 14px; line-height:14px;color:#000000;display: block;padding: 6px 10px;margin-bottom: 5px;z-index: 6;position: relative; }
 nav ul li:hover a{
 	color: #F00;
-	text-shadow: 1px 1px 12px #000000;
-
 }
 
 #pagi{clear: both; margin: 30px auto;padding: 0;list-style: none;width: 180px;}
@@ -154,12 +165,16 @@ nav ul li:hover a{
 
 footer {}
 footer section{margin-bottom:1px;}
-footer .heading{ padding:5px; border-bottom:3px double #000000;}
-footer .heading h2{font-size:16px; font-weight:normal; display:inline; padding:0 10px;}
+footer .heading{ text-align: left; font-size:20px;}
+footer .heading { font-weight:normal; }
 footer .content{padding:15px}
 footer .content a{}
 footer .content ul{ font-size:14px;  margin-left:20px;}
-footer .content ul li{padding:5px;}
+footer #foot ul li{padding-left:3px; text-align: left;}
+footer #foot ul li.dos{padding-left:10px; display: none;}
+footer #foot ul li.tres{padding-left:15px; display: none;}
+footer #foot ul li.dos.active{padding-left:10px; display: block; }
+footer #foot ul li.tres.active{padding-left:15px; display: block;}
 footer .content .post {margin-bottom: 20px;}
 footer .content .post h4{ font-size:10px; font-weight:normal;}
 footer .content .post img{ float:left; padding:5px; border:1px solid #CCC; margin-right:10px;}
@@ -290,4 +305,10 @@ ul.contacto li{
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 36px;
+}
+.full-screen{float:right!important}
+
+.servicios h2{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size:20px;
 }

@@ -1,20 +1,33 @@
-<div class="wrap-header">
-  <div class="section group">
-    <div class="col span_1_of_3">
-      <div id="logo"><a href="index.html"><img src="images/logo.png" /></a></div>
-    </div>
-    <div class="col span_2_of_3 box fade-in one">
-      <nav>
-        <ul>
-            <li class="current"><a href="index.html">INICIO</a></li>
+<div>
+  <div id="logo">
+    <a href="index.html">
+      <img src="images/logo.png" />
+    </a>
+  </div>
+  <div class="wrap-header">
+      <div class="w3-col m12 fade-in one">
+        <nav>
+          <ul>
+              <li><a class="menu" href="somos.html">QUIENES SOMOS</a></li>
 
-            <li ><a href="somos.html">QUIENES SOMOS</a></li>
+              <li><a class="menu" href="servicios.html">NUESTROS SERVICIOS</a></li>
 
-            <li><a href="#">SERVICIOS</a></li>
-
-            <li><a href="contacto.html">CONTACTO</a></li>
-        </ul>
-      </nav>
-    </div>
+              <li><a class="menu" href="contacto.html">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>
   </div>
 </div>
+<script>
+window.onload =$(".menu").each(function(){
+  console.log($(this).attr("href"));
+  console.log("="+window.location.pathname);
+if(window.location.pathname=="/psc/"+$(this).attr("href"))
+	{
+
+		$(this).parent().addClass("current");
+		//$(this).removeClass();
+		//$(this).addClass("menu bg-light-blue color-palette");
+		}
+    });
+</script>
